@@ -7,6 +7,7 @@ const App = () => (
   <BrowserRouter>
     <Box sx={{ backgroundColor: '#000' }}>
       <Navbar />
+      <Feed />
       <Routes>
         <Route exact path='/' element={<Feed />} />
         <Route path='/video/:id' element={<VideoDetail />} />
